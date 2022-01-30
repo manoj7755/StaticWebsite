@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+<!-----Jquary------>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<!-------CSS--------->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  
+  <div class="container">
+
+<!----------Heading---------->
+
+<div class="heading">
+	<div class="navbar" id="sideNav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+	        <li><a href="">Free Themes</a></li>
+	        <li><a href="">Premium Themes</a></li>
+	        <li><a href="">Website Template</a></li>
+	        <li><a href="" id="loginlink">Blog</a></li>
+	        <li><a href="userid/Account.html">Account</a></li>
+	        <li>
+
+	 <div id="searchBox">
+		<img src="images/search-icon.png" id="SearchIcon">
+		<input type="text" name="" placeholder="Search">	
+	</div>
+           </li>
+           <li><a href="userid/Login.php" >Login</a></li>
+     </ul>
+ </div>
+
+ 
+	
+</div>
+<img src="images/menu.png" id="menuBtn">
+<dir class="container-content">
+<div class="text-content">
+	<h1>We makes fast, responsive sites with using HTML,CSS and JS.</h1>
+	<p>Quickly design and customize responsive mobile-first sites
+	   with Bootstrap, the world’s most popular front-end open
+	   source toolkit, featuring Sass variables and mixins,
+	   responsive grid system, extensive prebuilt components, and
+	   powerful JavaScript plugins.</p>
+</div>
+<div class="img-content">
+	<img src="images/img3.png">
+</div>
+</dir>
+
+
+
+
+  <!-----firsr logint tamplete----->
+
+<div class="login-reg-template">
+<div class="LR-temp RT">
+	<img src="images/register.png">
+	<p>Register Template</p>
+	<button id="down" >Download</button>
+</div>
+<div class="LR-temp LT">
+	<img src="images/login.png">
+	<p>Login Template</p>
+	<button id="down">Download</button>
+</div>
+</div>
+<!-------Top-Themes------->
+
+<div class="TextOfThemsAndTemplate">
+	       <hr>
+	       <h3>Top Themes and Templets</h3>
+</div>
+<div class="top-themes">
+
+	<div class="toptheme-row">
+		    <img src="images/toptheme1.png">
+		<div class="themes-title">
+			<p>Health -health and future india template (Fornt End).</p>
+			<a href="">Full Veiw</a>
+		</div>
+	</div>
+
+	<div class="toptheme-row">
+		     <img src="images/toptheme1.png">
+		<div class="themes-title">
+			<p>Health -health and future indian</p>
+			<a href="">Full Veiw</a>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="TextOfThemsAndTemplate">
+	       <hr>
+	       <h3>Top Themes and Templets</h3>
+</div>
+<div class="top-themes">
+
+	<div class="toptheme-row">
+		    <img src="images/toptheme1.png">
+		<div class="themes-title">
+			<p>Health -health and future india template (Fornt End).</p>
+			<a href="">Full Veiw</a>
+		</div>
+	</div>
+
+	<div class="toptheme-row">
+		     <img src="images/toptheme1.png">
+		<div class="themes-title">
+			<p>Health -health and future indian</p>
+			<a href="">Full Veiw</a>
+		</div>
+	</div>
+
+</div>
+
+<div class="footer">
+	<div class="footer-catogery">
+		<div class="footer-item">
+			<h2>Links</h2>
+			<a href="">Home</a>
+			<a href="">Blob</a>
+			<a href="">Themes</a>
+			<a href="">contact</a>
+			
+		</div>
+		<div class="footer-item">
+			<h2>Links</h2>
+			<a href="">Home</a>
+			<a href="">Blob</a>
+			<a href="">Themes</a>
+			<a href="">contact</a>
+			
+		</div>
+		<div class="footer-item">
+			<h2>Themes</h2>
+			<a href="">Login Awsome them</a>
+			<a href="">Login Awsome them</a>
+			<a href="">Search themes</a>
+			<a href="">More themes</a>
+			
+		</div>
+		<div class="footer-item">
+			<h2>Join With</h2>
+			<a href=""><i class="fab fa-instagram"></i>  Instagram</a>
+			<a href=""><i class="fab fa-facebook"></i>  Facebook</a>
+			<a href=""><i class="fab fa-youtube"></i>  Youtube</a>
+			<a href=""><i class="fab fa-twitter"></i>  Twitter</a>
+			
+			
+		</div>
+		
+	</div>
+</div>
+ 
+
+
+  </div>
+
+
+
+
+
+  <script>
+
+	var searchBox = document.getElementById("searchBox");
+	var googleIcon = document.getElementById("SearchIcon");
+
+	googleIcon.onclick = function(){
+		searchBox.classList.toggle("active");
+	}
+</script>
+
+<script>
+	var menuBtn=document.getElementById("menuBtn");
+	var sideNav=document.getElementById("sideNav");
+
+	sideNav.style.right="-250px";
+	menuBtn.onclick=function(){
+		if(sideNav.style.right == "-250px"){
+			sideNav.style.right="0px";
+      
+		}
+		else{
+			sideNav.style.right = "-250px";
+		}
+	}
+</script>
+
+
+
+</body>
+</html>
